@@ -28,7 +28,7 @@ const App = {
   },
   watch:{
     inputValue(value){
-      if (value.length > 10){
+      if (value.length > 50){
         this.inputValue = ''
       }
     }
